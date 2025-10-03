@@ -1,10 +1,123 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>TEST WEBSITE</h1>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <nav class = "adaptive-navbar">
+            <div id="logo">
+                <img class = "main-logo" src ="images/logo.png" alt = "Colwood Logo">
+                <a class = "header-link" href = "#">home</a>
+            </div>
+            <input type="checkbox" class = "drop" id="drop">
+            <label for="drop" class="toggle" id='main-toggle'><span class="nav-icon">&nbsp;</span></label>
+                <ul class="menu">
+                    <li> 
+                        <!-- First Tier Drop Down -->
+                        <label for="drop-2" class="toggle">About Us</label>
+                        <a class = "no-show-mobile" href="#">About Us</a>
+                        <input type="checkbox" id="drop-2">
+                        <ul>
+                            <li class = "notary-dropdown home-dropdown"><a href="#">About Us</a></li>
+                            <li class = "notary-dropdown"><a href="#">The Trust</a></li>
+                            <li class = "notary-dropdown"><a href="#">Meet The Doctors</a></li>
+                            <li class = "notary-dropdown"><a href="#">Our Sponsors</a></li>
+                        </ul>
+                    </li>
+                
+                    <li> 
+                        <!-- First Tier Drop Down -->
+                        <label for="drop-1" class="toggle">Partner With Us</label>
+                        <a class = "no-show-mobile" href="#">Partner With Us</a>
+                        <input type="checkbox" id="drop-1">
+                        <ul>
+                            <li class = "accounting-dropdown home-dropdown"><a href = "#">Partner With Us</a></li>
+                            <li class = "accounting-dropdown"><a href="#">Ways To Give</a></li>
+                            <li class = "accounting-dropdown"><a href="#">Volunteer With Us</a></li>
+                        </ul>
+                    </li>
+                                
+                    <li><a class = "bottom-link" href="#">News & Events</a></li>
+                    <li><a class = "bottom-link" href="#">FAQ</a></li>
+                    <li><a class = "bottom-link" href="#">Contact Us</a></li>
+                </ul>
+        </nav>
+
+        <div class = "main-content">
+            <img class = "banner-landing" src="images/lighthouse.png">
+            <div class = "banner-textbox">
+                <div class = "banner-title">Inspiring and inspirational message for people</div>
+                <div class = "banner-text">We leave you with a warm and fuzzy feeling inside. Join our cause for good.</div>
+            </div>
+        </div>
+
+
+        <footer class = "page-footer footer">
+			<div class = "footer-container">
+				<div class = "footer-box">
+				
+					<div class = "footer-column">
+						<a class="navbar-brand" href="../landing_page/Index.html"><img class="footer-logo" src = "images/colwood-footer-logo.png" alt="Colwood footer logo"></a>
+						<div>
+							Inspiring messages about us
+						</div>
+					</div>
+					<hr class="footer-breaker">
+				
+					<div class="footer-column">
+						<div class = "footer-header">
+							Quick Links
+						</div>
+						<ul class="list-unstyled">
+							<li>
+								<a class = "footer-link" href="#">Important Link 1</a>
+							</li>
+							<li>
+								<a class = "footer-link" href="#">Important Link 2</a>
+							</li>
+                            <li>
+								<a class = "footer-link" href="#">Important Link 3</a>
+							</li>
+						</ul>
+					</div>
+					<hr class="footer-breaker">
+					
+					<div class = "footer-column">
+						<div class ="footer-header">Contact</div>
+						<a href = "tel:+0" class = "phone">(000)-000-0000</a>
+						<div><a href = "mailto:test@gmail.com" class ="email" >test@gmail.com</a></div>
+						<div>1234 Vista Way</div>
+						<div>Victoria, BC, Canada</div>
+						<div>AAA 123</div>
+					</div>
+					<hr class="footer-breaker">					
+				</div>
+				
+				<div class = "smaller footer-icons">
+					<div class = "footer-icon-col smaller">
+						<div>
+							<a href="#" class="fa fa-facebook">&nbsp;</a>
+                            <a href="#" class="fa fa-twitter">&nbsp;</a>
+                            <a href="#" class="fa fa-instagram">&nbsp;</a>
+						</div>
+					</div>
+				</div>
+				
+				<div class = "row">
+					<div class = "row justify-content-center small-font">
+						Colwood Clinic Foundation &copy; <script>document.write(new Date().getFullYear())</script>
+					</div>
+				</div>
+				<div class = "row">
+					<div class = "row small-font">
+						ALL RIGHTS RESERVED
+					</div>
+				</div>
+			</div>
+		</footer>
+    </body>
 </html>

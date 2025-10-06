@@ -345,11 +345,43 @@ nav ul ul ul li {
   }
 }
 
+/*template code*/
+.button-link{
+	display:block;
+    padding: 10px;
+    text-align: center;
+    position:relative;
+    border-radius: 20px;
+    line-height: 25px;
+	font-size:20px;
+	margin-top:20px;
+	font-weight: bold;
+	transition: color 0.7s, background 0.7s, box-shadow 0.7s;
+	background-color:#e08725;
+	color:white;
+    text-decoration: none;
+}
+.button-link:hover{
+	background:#fdb814;
+}
+.section-title{
+    color:#006b36;
+    font-size:40px;
+    text-align: center;
+    font-weight: bold;
+}
+.section-text{
+    color:black;
+    font-size:20px;
+    text-align: center;
+}
 /* Main content */
 .main-content{
     padding-top: 120px;
     background-color: #FDFBD4;
-    height: 100%;
+}
+.landing-box-1{
+    height:700px;
 }
 
 .banner-landing{
@@ -397,11 +429,75 @@ nav ul ul ul li {
 	text-shadow: 1px 1px black;
 }
 
+.landing-box-2{
+padding-bottom:200px
+}
+.landing-box-2-title{
+    width: 60%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:200px;
+}
+.button-link-box-2{
+    left:0;
+	right:0;
+    margin-left:auto;
+    margin-right:auto;
+    width: 160px;
+}
+.landing-box-3{
+    background-color:#fcfae8;
+}
+.landing-box-3-title{
+    width: 60%;
+    margin-left:auto;
+    margin-right:auto;
+    padding-top:100px;
+}
+.landing-box-3-text{
+    margin-top:40px;
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:300px;
+}
+.landing-box-4{
+    padding-bottom:200px;
+}
+.landing-box-4-title{
+    padding-top:200px;
+}
+.landing-box-4-text{
+}
+.landing-box-4-link{
+    left:0;
+	right:0;
+    margin-left:auto;
+    margin-right:auto;
+    width: 160px;
+}
+
 @keyframes textFadeIn {
   0%   {opacity:0%;}
   100% {opacity:100%}
 }
-
+@media (max-width: 768px){
+    .banner-textbox{
+        padding-left:0;
+        width:100%;
+    }
+    .banner-title{
+        margin-left:10%;
+        margin-right:10%;
+        width:80%;
+        font-size:35px;
+    }
+    .banner-text{
+        margin-left:10%;
+        margin-right:10%;
+        width:80%;
+        font-size:25px;
+    }
+}
 /*Footer*/
 .footer{
 	color: white;
@@ -425,7 +521,7 @@ nav ul ul ul li {
 	font-weight:normal;
 }
 .footer-link:hover{
-	color:#e08725;
+	color:#f1b544;
 	text-decoration:none;
 }
 .footer-header{
